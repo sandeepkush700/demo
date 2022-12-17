@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+   background: url("https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}  
+
+.main-container{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+
+
+.main-container nav ul{
+    border: 2px solid rgb(0, 102, 255);
+    background-color: green;
+    
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main-container nav ul li{
+    /* border: 2px solid rgb(0, 255, 128); */
+    margin: 0 0.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.main-container nav ul li a{
+    /* border: 2px solid rgb(170, 255, 0); */
+    color: white;
+    text-decoration: none;
+    padding: 0.1rem;
+    font-size: 1.2rem;
+    text-align: center;
+   
+} 
+
+.main-container nav ul li a:hover{
+    
+   background-color: black;
+   color: wheat;
+} 
+
+section{
+    width: 100%;
+    border:  2px solid gray;
+    margin-top: 1rem;
+}
+section h1{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 2.5rem;
+} 
